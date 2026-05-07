@@ -13,17 +13,17 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 
 ## Team members
 - **Thành viên 1**: Lưu Phương Thảo - MSSV: 1871020681
-- **Thành viên 2**: TODO_MEMBER_2 - MSSV: TODO_MEMBER_2_ID
+- **Thành viên 2**: Nguyễn Anh Đức - MSSV: 1871020148
 
 ## Task division
 - **Thành viên 1 phụ trách chính**: Xây dựng tiến trình Sender (`sender.py`), hoàn thiện các hàm mã hoá và đóng gói dữ liệu trong `des_socket_utils.py`, viết báo cáo `report-1page.md` và `README.md`.
-- **Thành viên 2 phụ trách chính**: TODO_ROLE_MEMBER_2
+- **Thành viên 2 phụ trách chính**: Xây dựng tiến trình Receiver (`receiver.py`), xử lý ngoại lệ và viết `threat-model-1page.md`.
 - **Phần làm chung**: Phối hợp chạy 5 test cases, thu thập file log chạy thật lưu vào thư mục `logs/`, và thực hiện đánh giá chéo trong `peer-review-response.md`.
 
 ## Demo roles
 - **Bạn nào demo Sender / gói tin / log gửi**: Lưu Phương Thảo 
-- **Bạn nào demo Receiver / giải mã / log nhận**: TODO_DEMO_ROLE_2
-- **Cả hai cùng trả lời threat model và ethics**: Lưu Phương Thảo và [Điền tên bạn cùng nhóm]
+- **Bạn nào demo Receiver / giải mã / log nhận**: Nguyễn Anh Đức
+- **Cả hai cùng trả lời threat model và ethics**: Lưu Phương Thảo và Nguyễn Anh Đức
 
 ## Mục tiêu học tập
 - Hiểu luồng hoạt động của hệ thống Sender/Receiver qua TCP socket.
