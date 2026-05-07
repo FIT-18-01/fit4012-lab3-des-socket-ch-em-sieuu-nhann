@@ -1,0 +1,12 @@
+Thời điểm: 2026-05-08 10:15:05
+Người thực hiện: Lưu Phương Thảo (Receiver)
+Tình huống: Nhận bản tin hợp lệ (Happy Path)
+
+Đang lắng nghe 0.0.0.0:6001...
+[+] Đã nhận kết nối từ ('127.0.0.1', 54321)
+Key thu được: d1240770715f8b37
+IV thu được: a4d80951944113db
+Độ dài bản mã: 24 bytes
+Ciphertext thu được: ba56325b58fc60c4712f0d192470718a2e365ccd49f9b0e1
+[+] Giải mã thành công: Xin chao FIT4012
+Kết quả: Nhận và giải mã hoàn hảo, không có lỗi.

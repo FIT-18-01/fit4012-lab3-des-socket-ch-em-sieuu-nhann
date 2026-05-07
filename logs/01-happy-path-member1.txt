@@ -1,0 +1,10 @@
+Thời điểm: 2026-05-08 10:15:00
+Người thực hiện: Nguyễn Anh Đức (Sender)
+Tình huống: Gửi bản tin hợp lệ (Happy Path)
+Input: MESSAGE="Xin chao FIT4012"
+
+[+] Đã gửi bản mã.
+Key: d1240770715f8b37
+IV: a4d80951944113db
+Ciphertext: ba56325b58fc60c4712f0d192470718a2e365ccd49f9b0e1
+Kết quả: Gửi thành công tới Receiver.

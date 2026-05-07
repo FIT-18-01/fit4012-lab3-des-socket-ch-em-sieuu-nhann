@@ -1,0 +1,11 @@
+Thời điểm: 2026-05-08 10:25:00
+Người thực hiện: Nguyễn Anh Đức & Lưu Phương Thảo
+Tình huống: Kẻ tấn công cố tình đưa sai Key để lừa Receiver.
+Input: Sender gửi gói tin với Ciphertext đúng nhưng phần Key bị đổi thành "00000000".
+
+[Receiver Log]
+Đang lắng nghe 0.0.0.0:6001...
+[+] Đã nhận kết nối từ ('127.0.0.1', 54330)
+Key thu được: 3030303030303030
+[!] Lỗi khi giải mã: ValueError("Padding is incorrect.") 
+Kết quả: Do dùng sai khóa, bản rõ sinh ra bị nhiễu loạn hoàn toàn, dẫn đến lỗi gỡ padding. Chương trình dừng an toàn.

@@ -1,0 +1,11 @@
+Thời điểm: 2026-05-08 10:30:00
+Người thực hiện: Nguyễn Anh Đức & Lưu Phương Thảo
+Tình huống: Gửi sai định dạng độ dài (Header length error) / Ngắt kết nối sớm.
+Input: Sender gửi Key và IV, nhưng chỉ gửi 2 byte độ dài rồi ngắt kết nối luôn.
+
+[Receiver Log]
+Đang lắng nghe 0.0.0.0:6001...
+[+] Đã nhận kết nối từ ('127.0.0.1', 54335)
+[!] Lỗi: Không thể bóc tách Header (nhận được < 4 bytes).
+[!] Connection Reset by Peer.
+Kết quả: Receiver không bị crash mà đã bắt được ngoại lệ (exception) và in ra thông báo lỗi an toàn.
